@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oE45qj5Dq7Q6W8jdnqivk02C6jcArQ/rjkCqKSmsPjDBnK28OuXROQQKuVen6cPW8h5jdVJTHx7M6oJqCUiW1Q==",
+  "success": true,
+  "projectFilePath": "/home/snewby/Atlas/Stutor/Live Codes/Arrays and Loops/LiveCode.csproj",
+  "expectedPackageFiles": [
+    "/home/snewby/.nuget/packages/sixlabors.imagesharp/3.1.6/sixlabors.imagesharp.3.1.6.nupkg.sha512"
+  ],
+  "logs": []
+}
