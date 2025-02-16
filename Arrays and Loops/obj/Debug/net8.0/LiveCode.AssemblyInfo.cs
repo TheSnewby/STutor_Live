@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LiveCode")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0217ea1674b8e427c163279f88df236432f4c5dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("LiveCode")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LiveCode")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

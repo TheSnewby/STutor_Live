@@ -32,3 +32,4 @@
 /home/snewby/Atlas/Stutor/Live Codes/Arrays and Loops/obj/Debug/net8.0/LiveCode.pdb
 /home/snewby/Atlas/Stutor/Live Codes/Arrays and Loops/obj/Debug/net8.0/LiveCode.genruntimeconfig.cache
 /home/snewby/Atlas/Stutor/Live Codes/Arrays and Loops/obj/Debug/net8.0/ref/LiveCode.dll
+/home/snewby/Atlas/Stutor/Live Codes/Arrays and Loops/obj/Debug/net8.0/LiveCode.sourcelink.json

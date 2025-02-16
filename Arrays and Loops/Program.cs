@@ -25,22 +25,18 @@ class Program
 		}
 	}
 
-	static void ASCIISpiral()
+	static void Fibonacci()
     {
-        int size = 25;
-        for (int y = -size + 6; y < size; y++)
-        {
-			Console.Write(new string(' ', 40));
-            for (int x = -size; x < size; x++)
-            {
-				Thread.Sleep(5);
-                if (Math.Sqrt(x * x + y * y) % 2 < 1)
-                    Console.Write("* ");
-                else
-                    Console.Write("  ");
-            }
-            Console.WriteLine();
-        }
+        int[] fib = new int[25];
+        fib[0] = 0;
+        fib[1] = 1;
+
+        for (int i = 2; i < fib.Length; i++)
+		{
+            fib[i] = fib[i - 1] + fib[i - 2];
+			Console.Write(fib[i] + "   ");
+			Thread.Sleep(200);
+		}
     }
 
 	static void ASCIIWave()
@@ -72,28 +68,22 @@ class Program
         }
     }
 
-	static void Food()
+	static void ASCIISpiral()
     {
-        string[] toppings = { "Cheese", "Pepperoni", "Pineapple", "Mushrooms", "Bacon" };
-        foreach (var topping in toppings)
+        int size = 25;
+        for (int y = -size + 6; y < size; y++)
         {
-            if (topping == "Pineapple") continue; // Skip "Pineapple" for fun!
-            Console.WriteLine($"Adding {topping} to pizza...");
+			Console.Write(new string(' ', 40));
+            for (int x = -size; x < size; x++)
+            {
+				Thread.Sleep(5);
+                if (Math.Sqrt(x * x + y * y) % 2 < 1)
+                    Console.Write("* ");
+                else
+                    Console.Write("  ");
+            }
+            Console.WriteLine();
         }
-    }
-
-	static void MagicTrick()
-    {
-        int[] fib = new int[25];
-        fib[0] = 0;
-        fib[1] = 1;
-
-        for (int i = 2; i < fib.Length; i++)
-		{
-            fib[i] = fib[i - 1] + fib[i - 2];
-			Console.Write(fib[i] + "   ");
-			Thread.Sleep(200);
-		}
     }
 
 	static void ASCIIImagePrinting(string imagePath)
@@ -133,7 +123,7 @@ What would you like to run?
 8) Print Pupper
 9) Exit");
 			Console.Write("\nEnter Here: ");
-			userInput = Console.ReadLine();
+			userInput = Console.ReadLine() ?? "";
 			Console.WriteLine("You entered {0}.", userInput);
 			Thread.Sleep(500);
 			Console.Clear();
@@ -144,7 +134,7 @@ What would you like to run?
 					Squares();
 					break;
 				case "2":
-					MagicTrick();
+					Fibonacci();
 					break;
 				case "3":
 					ASCIIWave();
