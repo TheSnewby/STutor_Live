@@ -46,7 +46,7 @@ class Program
         {
             int x = (int)(modifier * Math.Sin(i / 3.14));
             Console.WriteLine(new string(' ', x + modifier + 40) + "*");  //40 is horizontal offset
-			Thread.Sleep(180);
+			Thread.Sleep(90);
         }
     }
 
@@ -55,7 +55,7 @@ class Program
         Random rand = new Random();
         int width = 240;
         char[] stars = new char[width];
-		int i = 160;
+		int i = 90;
 
         while (i >= 0)
         {
@@ -100,7 +100,7 @@ class Program
                     int gray = (pixel.R + pixel.G + pixel.B) / 3;
                     char ascii = gray > 128 ? '#' : ' ';
                     Console.Write(ascii);
-					Thread.Sleep(2);
+					Thread.Sleep(1);
                 }
                 Console.WriteLine();
             }
